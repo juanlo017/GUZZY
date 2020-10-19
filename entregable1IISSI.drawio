@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-19T19:07:34.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="bJnugDiX2stMSuCISFkT" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-19T19:19:35.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="aftkPrllm8Wk8d2Qoh3V" version="13.8.0" type="github">
   <diagram id="QEgc3vgryEYt_oSjoKBz" name="Page-1">
-    <mxGraphModel dx="1553" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1553" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -497,6 +497,24 @@
             <mxPoint x="-65.71000000000001" y="208" as="sourcePoint" />
             <mxPoint x="-65.71000000000001" y="168" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-223" value="{Limitación créditos docentes.&lt;br&gt;Un&lt;br/&gt;profesor no imparte más de 24 créditos por curso académico.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-70" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-224" value="{Profesor pertenece a departamento. Los profesores que&lt;br&gt;imparten una asignatura deben pertenecer al departamento que asume la&lt;br&gt;asignatura.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-60" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-225" value="{Limitación créditos estudiante&lt;br&gt;Un alumno no puede&lt;br/&gt;matricularse en más de 90 créditos o menos de 30 en un curso académico.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="139" y="833" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-230" value="{Cita de tutoría en horas válidas. &lt;br&gt;Una cita para tutoría estará definida por una hora que debe estar entre la hora de comienzo y fin de&lt;br&gt;la tutoría correspondiente, así como por una fecha.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="750" y="158" width="220" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-232" value="{Limitación horas tutoría. Un profesor no puede&lt;br/&gt;impartir más de 6 horas de tutoría a la semana.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="740" y="40" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-234" value="{Matrícula de honor.&lt;br&gt;&amp;nbsp;Para que una nota sea&lt;br/&gt;matrícula de honor es necesario que su valor sea igual o superior a 9.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="666.9" width="210" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
