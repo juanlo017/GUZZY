@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-19T19:19:35.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="aftkPrllm8Wk8d2Qoh3V" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-19T19:20:43.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="3gdrooqcPHWBegT6d71Z" version="13.8.0" type="github">
   <diagram id="QEgc3vgryEYt_oSjoKBz" name="Page-1">
     <mxGraphModel dx="1553" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,26 +383,14 @@
         </mxCell>
         <mxCell id="kQikg4JIYIptDzOeMj-X-186" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="1">
           <mxGeometry x="-0.5556" y="30" relative="1" as="geometry">
-            <mxPoint x="129.5" y="604" as="sourcePoint" />
-            <mxPoint x="129.5" y="514" as="targetPoint" />
+            <mxPoint x="29.290000000000006" y="600" as="sourcePoint" />
+            <mxPoint x="29.290000000000006" y="510" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="130" y="574" />
-              <mxPoint x="130" y="574" />
+              <mxPoint x="29.790000000000006" y="570" />
+              <mxPoint x="29.790000000000006" y="570" />
             </Array>
             <mxPoint x="1" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="kQikg4JIYIptDzOeMj-X-83" value="&lt;&lt;Enumerado&gt;&gt;&#xa;Tipo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="600" width="140" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="kQikg4JIYIptDzOeMj-X-84" value="Obligatoria" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kQikg4JIYIptDzOeMj-X-83">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="kQikg4JIYIptDzOeMj-X-85" value="Optativa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kQikg4JIYIptDzOeMj-X-83">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="kQikg4JIYIptDzOeMj-X-86" value="Formación Básica&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kQikg4JIYIptDzOeMj-X-83">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kQikg4JIYIptDzOeMj-X-187" value="Grado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-220" y="390" width="140" height="104" as="geometry" />
@@ -515,6 +503,18 @@
         </mxCell>
         <mxCell id="kQikg4JIYIptDzOeMj-X-234" value="{Matrícula de honor.&lt;br&gt;&amp;nbsp;Para que una nota sea&lt;br/&gt;matrícula de honor es necesario que su valor sea igual o superior a 9.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="520" y="666.9" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-83" value="&lt;&lt;Enumerado&gt;&gt;&#xa;Tipo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="600" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-84" value="Obligatoria" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kQikg4JIYIptDzOeMj-X-83">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-85" value="Optativa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kQikg4JIYIptDzOeMj-X-83">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kQikg4JIYIptDzOeMj-X-86" value="Formación Básica&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kQikg4JIYIptDzOeMj-X-83">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
