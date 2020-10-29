@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T16:22:47.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="nUd_wUH9g70FAuWFJ4qd" version="13.8.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-10-29T16:25:55.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="UBrmJlbtKrhqYjWLwCRt" version="13.8.7" type="github" pages="5">
   <diagram id="QEgc3vgryEYt_oSjoKBz" name="Page-1">
     <mxGraphModel dx="2115" dy="2343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -576,7 +576,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iGQ3x6KcwJ2RBKRCYx3v" name="Gestión de espacios">
-    <mxGraphModel dx="920" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1288" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="59AA-poRvf2w5HcQeNje-0" />
         <mxCell id="59AA-poRvf2w5HcQeNje-1" parent="59AA-poRvf2w5HcQeNje-0" />
@@ -701,7 +701,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SQrXnkAGUVCJa-iTevrD" name="Gestion de Docencia">
-    <mxGraphModel dx="1073" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1610" dy="1468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="2we1HUUyMfqpGairIRKy-0" />
         <mxCell id="2we1HUUyMfqpGairIRKy-1" parent="2we1HUUyMfqpGairIRKy-0" />
