@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T16:15:50.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="PF2_WaIgWAq8mcPQ-V-e" version="13.8.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-10-29T16:22:47.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="nUd_wUH9g70FAuWFJ4qd" version="13.8.7" type="github" pages="5">
   <diagram id="QEgc3vgryEYt_oSjoKBz" name="Page-1">
-    <mxGraphModel dx="1747" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2115" dy="2343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -694,11 +694,14 @@
         <mxCell id="oSod8dooswXOsvXeuFsb-0" value="{ Nombre de espacios bien formados.El nombre de un espacio&lt;br/&gt;sigue el siguiente formato (dependiendo de si es despacho o aula):&lt;br/&gt;{D|A}.{Planta}.{Natural}. Ej: D.0.23 (despacho 23 de la planta baja), A.1.14&lt;br/&gt;(aula 14 de la planta 1).}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="59AA-poRvf2w5HcQeNje-1">
           <mxGeometry x="660" y="57" width="180" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="Y-YCCJ1xSyQGQinazz_5-0" value="{ Capacidad de aula máxima.&lt;br&gt;&amp;nbsp;cada aula debe tener&lt;br/&gt;capacidad suficiente para los grupos que se imparten en la misma.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="59AA-poRvf2w5HcQeNje-1">
+          <mxGeometry x="170" y="374" width="190" height="72" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="SQrXnkAGUVCJa-iTevrD" name="Gestion de Docencia">
-    <mxGraphModel dx="920" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="2we1HUUyMfqpGairIRKy-0" />
         <mxCell id="2we1HUUyMfqpGairIRKy-1" parent="2we1HUUyMfqpGairIRKy-0" />
@@ -955,10 +958,10 @@
         <mxCell id="CWljWx62VTiYw6pm9OnP-4" value="&lt;&lt;Enumerado&gt;&gt;&#xa;Actividad" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
           <mxGeometry x="1091.14" y="890" width="140" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="CWljWx62VTiYw6pm9OnP-5" value="Teoría[15,..]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CWljWx62VTiYw6pm9OnP-4">
+        <mxCell id="CWljWx62VTiYw6pm9OnP-5" value="Teoría[15,75]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CWljWx62VTiYw6pm9OnP-4">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CWljWx62VTiYw6pm9OnP-6" value="Laboratorio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CWljWx62VTiYw6pm9OnP-4">
+        <mxCell id="CWljWx62VTiYw6pm9OnP-6" value="Laboratorio[1,25]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CWljWx62VTiYw6pm9OnP-4">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="CWljWx62VTiYw6pm9OnP-9" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2we1HUUyMfqpGairIRKy-1" target="CWljWx62VTiYw6pm9OnP-4">
@@ -1007,6 +1010,38 @@
         </mxCell>
         <mxCell id="sWO4uh28fScH06lDrSUG-0" value="{Matrícula de honor.&lt;br&gt;&amp;nbsp;Para que una nota sea&lt;br/&gt;matrícula de honor es necesario que su valor sea igual o superior a 9.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
           <mxGeometry x="888" y="632" width="205" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="p0ED9aDLqMDL28-IM5lv-0" value="{Limitación créditos estudiante&lt;br&gt;Un alumno no puede&lt;br/&gt;matricularse en más de 90 créditos o menos de 30 en un curso académico.}" style="shape=note;whiteSpace=wrap;html=1;size=4;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="1000" y="200" width="220" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="p0ED9aDLqMDL28-IM5lv-1" value="{Pertenencia de alumnos a grupos.&lt;br&gt;&amp;nbsp;un alumno no puede&lt;br/&gt;pertenecer a más de un grupo de teoría y a más de un grupo de prácticas de&lt;br/&gt;cada asignatura.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="390" y="637" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p0ED9aDLqMDL28-IM5lv-2" value="{ Profesores por departamento.&lt;br&gt;en cada departamento se&lt;br&gt;tiene que cumplir que #CU+#TU &amp;gt; #PCD+#PAD .}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="121" y="800" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p0ED9aDLqMDL28-IM5lv-3" value="{&amp;nbsp;Cambios bruscos en notas.&lt;br&gt;Una nota no puede&lt;br&gt;alterarse de una vez en más de 4 puntos (aumentada o disminuida).}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="1110" y="570" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p0ED9aDLqMDL28-IM5lv-4" value="{Alumno pertenece a grupo.&lt;br&gt;Un alumno no puede&lt;br&gt;tener notas en grupos a los que no pertenece.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="1071" y="267" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p0ED9aDLqMDL28-IM5lv-5" value="{Restricción de edad&lt;br&gt;.&lt;br&gt;Un alumno no puede&lt;br&gt;acceder por selectividad teniendo menos de 16 años.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="1109.9999999999998" y="330" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p0ED9aDLqMDL28-IM5lv-6" value="{Nota por alumno.&lt;br&gt;Un alumno no puede&lt;br/&gt;tener más de una nota para la misma asignatura, convocatoria y año&lt;br/&gt;académico.}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="1110" y="500" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EA84UU2sLM0TniDwY3mJ-0" value="Asociada a" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="750" y="620.29" as="geometry">
+            <mxPoint x="52" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9QKlI241p3sVR5YhZFC9-0" value="{Aulas de teoría y prácticas.&lt;br&gt; los grupos de teoría se&lt;br&gt;impartirán en aulas de teoría y los grupos de laboratorio en aulas de&lt;br&gt;laboratorio.&amp;nbsp;}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="1071" y="980" width="190" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="9QKlI241p3sVR5YhZFC9-1" value="{ Alumnos máximos en grupos.&lt;br&gt;Un grupo de teoría no&lt;br/&gt;puede tener más de 75 alumnos, y uno de laboratorio no más de 25&amp;nbsp;}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2we1HUUyMfqpGairIRKy-1">
+          <mxGeometry x="1250" y="896" width="190" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
